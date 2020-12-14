@@ -1,6 +1,3 @@
 ---
 roles:
-  - src: https://github.com/Darkbat91/ansible-role-repo-epel
-    version: master
-    name: repo-epel
-
+  ## Deps go here Should be very short and only if Absolutely needed
