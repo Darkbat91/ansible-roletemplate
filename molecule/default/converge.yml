@@ -10,4 +10,4 @@
       changed_when: false
 
   roles:
-    - role: ansible-role-mailman3
+    - role: ansible-role-mycoolrole
