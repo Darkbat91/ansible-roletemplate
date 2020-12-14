@@ -24,7 +24,7 @@ There are a few files that are required to be updated when using this template
 1. [molecule/requirements.yml](molecule/requirements.yml) - Update with any required  roles or collections
 2. [molecule/default/converge.yml](molecule/default/converge.yml) - update with new role name
 3. [molecule/default/molecule.yml](molecule/default/molecule.yml) - update with desired distributions and extra playbooks
-4. [github](github) - Rename to github and push
+4. [github](github) - Rename to `.github` and push, this will set up yamllint, ansible-lint and a CI check job for the `main` branch
    1. NOTE: If you are using a SAML token this may fail. You can created the files within the Github web app
 
 ### Optional
