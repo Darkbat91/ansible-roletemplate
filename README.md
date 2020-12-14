@@ -24,6 +24,8 @@ There are a few files that are required to be updated when using this template
 1. [molecule/requirements.yml](molecule/requirements.yml) - Update with any required  roles or collections
 2. [molecule/default/converge.yml](molecule/default/converge.yml) - update with new role name
 3. [molecule/default/molecule.yml](molecule/default/molecule.yml) - update with desired distributions and extra playbooks
+4. [github](github) - Rename to github and push
+   1. NOTE: If you are using a SAML token this may fail. You can created the files within the Github web app
 
 ### Optional
 The github actions are configured to automatically run the molecule tests but if you want to load them locally you will also need molecule installed on the development machine
